@@ -1,0 +1,7 @@
+# Make environment for CMSC257 Project 3
+
+my257sh :
+	gcc -g -Wall -pthread shellex.c csapp.c -o sh257
+
+clean :
+	rm -v sh257
